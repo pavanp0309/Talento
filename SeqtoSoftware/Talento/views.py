@@ -122,7 +122,7 @@ def Post_Job(request):
         # print()
         record.save()
         print(record)
-        return redirect('success')
+        return redirect('successs')
     else:
         return render(request,'post-job.html')
     
